@@ -18,4 +18,7 @@ void printstr(char s[])
     printf("%c",*ptr);
     ptr++;
 }
+{
+    printf("\nLength of the string is%d,\n",ptr-s);
 }
+
